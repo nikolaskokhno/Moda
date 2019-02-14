@@ -47,3 +47,44 @@ li {
   padding: 0;
 }
 
+.icon-header{
+  width: 17px;
+  height: 18px;
+}
+
+.hello,
+.contact,
+.search{
+  display: flex;
+  margin-top: 10px;
+}
+
+.block-contact h5{
+  color: #605f5f;
+  font-family: "Source Sans Pro";
+  font-size: 13px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
+}
+
+.search{
+  position:relative;
+  direction: rtl;
+  width: 300px;
+}
+
+.search input{
+  margin:0;
+  padding-right: 220px;
+  width: 100%;
+}
+
+.search i{
+   position:absolute;
+    bottom:2px;
+    right:5px;
+    width:24px;
+    height:24px;
+}
+
